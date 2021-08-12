@@ -1,0 +1,31 @@
+.taskRef {
+    display: flex;
+    flex-wrap: wrap;
+}
+.component {
+    width: 370px;
+    height: 99px;
+    border: 1px solid rgba(128, 128, 128, 0.164);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 8px;
+    align-items: center;
+}
+.component__image {
+    width: 57px;
+    height: 57px;
+}
+.component__text {
+    display: flex;
+    flex-direction: column;
+}
+.component > p , .component__text > p{
+    font-size: 12px;
+}
+.total {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: 900;
+}
